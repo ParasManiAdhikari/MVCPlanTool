@@ -88,7 +88,7 @@ public class Course {
         this.attendance_type = attendance_type;
     }
 
-    public boolean isNc() {
+    public boolean getNc() {
         return nc;
     }
 
