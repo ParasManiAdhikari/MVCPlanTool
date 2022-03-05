@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.button {
+    background-color: orange;
+}
+
+.link {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.current {
+    font-weight: bold;
+}
+
+.user {
+    color: blue;
+}
+
+.emph {
+    /* font-weight: bold; */
+    color: red;
+}
+
+.header {
+    /* background-color: bisque; */
+    height: 50px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    margin: 0 10px;
+    font-size: 12pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-el {
+    display: inline;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.container {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.menu {
+    background-color: white;
+    width: 25%;
+    height: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    width: 75%;
+    height: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    width: 80%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    color: rgb(91, 92, 128);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(230, 230, 230);
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(209, 209, 209);
+}
+
+.formular {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-el {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    margin: 0px 5px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+    color: rgb(91, 92, 128);
+    font-weight: bold;
+    text-decoration: none;
+    height: 50px;
+    width: 250px;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 3px 3px lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    color: black;
+    box-shadow: none;
+}
+
+h1 {
+    margin: 20px;
+}
+
+h2 {
+    margin: 10px;
+}
