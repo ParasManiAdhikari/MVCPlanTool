@@ -14,7 +14,7 @@ public class TimeTable {
         this.id = id;
     }
 
-    @Id
+
     public long getId() {
         return id;
     }

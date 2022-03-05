@@ -35,7 +35,6 @@ public class Course {
         this.id = id;
     }
 
-    @Id
     public long getId() {
         return id;
     }

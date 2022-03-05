@@ -25,7 +25,7 @@ public class Role {
         this.roleId = id;
     }
 
-    @Id
+
     public long getRoleId() {
         return roleId;
     }

@@ -8,9 +8,9 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-@EnableJpaRepositories(basePackages = "de.luebeck.plantool.repositories")
+@EnableJpaRepositories(basePackages="de.luebeck.plantool.repositories")
 @EnableTransactionManagement
-@EntityScan(basePackages = "de.luebeck.plantool.entities")
+@EntityScan(basePackages="de.luebeck.plantool.entities")
 public class Application implements WebMvcConfigurer {
 
     public static void main(String[] args) {
@@ -18,8 +18,15 @@ public class Application implements WebMvcConfigurer {
     }
 
     @Override
-    public void addViewControllers(ViewControllerRegistry viewControllerRegistry){
+    public void addViewControllers(ViewControllerRegistry viewControllerRegistry) {
         viewControllerRegistry.addViewController("/overview").setViewName("overview");
+		/*
+		viewControllerRegistry.addViewController("/create").setViewName("create");
+		viewControllerRegistry.addViewController("/courses").setViewName("courses");
+		viewControllerRegistry.addViewController("/modules").setViewName("modules");
+		viewControllerRegistry.addViewController("/selection").setViewName("selection");
+		*/
     }
+
 
 }

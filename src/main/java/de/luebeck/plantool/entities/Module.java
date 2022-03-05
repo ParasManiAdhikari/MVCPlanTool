@@ -44,7 +44,6 @@ public class Module {
         this.id = id;
     }
 
-    @Id
     public long getId() {
         return id;
     }

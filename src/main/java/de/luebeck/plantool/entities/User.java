@@ -39,7 +39,7 @@ public class User {
         this.id = id;
     }
 
-    @Id
+
     public long getId() {
         return id;
     }
