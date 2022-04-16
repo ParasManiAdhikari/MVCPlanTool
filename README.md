@@ -1,2 +1,6 @@
 # MVCPlanTool
-Plan making tool to create Schedules (Website in german up to this point). A Spring Framework project.
+Plan scheduling tool for college Subjects(Modules). A Spring Framework project.
+It is made using:
+# HTML + Thymeleaf
+#CSS
+#Spring MVC with Repo, Controllers and Views
